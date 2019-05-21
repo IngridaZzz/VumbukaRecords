@@ -9,7 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/qmr4apt.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,60 +21,90 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar">
-                        <img id="logo" src="img/VR-logo-black.svg" alt="Vumbuka Records Logo">
+                    <nav class="navbar navbar-expand-lg"><!--- NAV --->
+                        <div class="logo">
+                            <img src="img/VR-logo-black.svg" alt="Vumbuka Records Logo">
+                        </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item"><a href="index.html">home</a></li>
-                                <li class="nav-item"><a href="records.html">records</a></li>
-                                <li class="nav-item"><a href="artists.html">artists</a></li>
-                                <li class="nav-item"><a href="about.html">about</a></li>
-                                <li class="nav-item"><a href="contact">contact</a></li>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Records</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Artists</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
                             </ul>
                         </div>
-                    </nav>
+                    </nav> <!--- END NAV --->
                 </div>
             </div>
         </div>
     </header>
-    <section class="top-banner">
+    
+    <section class="top-banner"><!--- TOP BANNER IMG --->
+        <div class="container-fluid">
+            <div class="row justify-content-end">
+	            <div class="col-11 purple-box"></div>
+                <div class="col-10 top-img"></div>
+            </div>
+                <div class="container">
+	                <div class="row justify-content-end">
+	               		 <div class="col-5 title-box">
+	                        <h1>Vumbuka Records</h1>
+                             <a href="about.html" class="link-a"><h5>Read more <i class="fas fa-angle-right fa-sm"></i></h5></a>
+	                    </div>
+	                </div>
+                </div> 
+        </div>
+    </section><!--- END TOP BANNER IMG --->
+
+    <section class="release"><!--- LATESTS RELEASE --->
+        <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div class="title-box">
-                        <h1>Vumbuka Records</h1>
-                    </div>
-                    <div class="purple-box"></div>
+	            <div class="col-12 col-md-4">
+	                <div class="album-cover"></div>
+	                  <div class="orange-box"></div>
+                </div>
+               <div class="col-">
+		            
+	            </div>
+            </div>
+        </div>
+        </div>
+    </section><!--- END LATESTS RELEASE --->
+
+    <section class="artists"><!--- ARTISTS --->
+        <div class="container">
+            <div class="row">
+	            <div class="col-6 zigzag">
+	                <div class="p-box"></div>
+	                <div class="artists-text">
+	                    <h2>Artists</h2>
+	                    <p>Simone Ahá and Sandy B</p>
+	                     <a href="artists.html" class="link-a"><h5>Read more <i class="fas fa-angle-right fa-sm"></i></h5></a>
+	                </div>
+		        </div>
+                <div class="col-6">
+                    <img src="img/SandyB.jpg" alt="Sandy B at Distortion" class="sandy">
                 </div>
             </div>
         </div>
-    </section>
+    </section><!--- END ARTISTS --->
 
-    <section class="release">
-        <div class="container">
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-8"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="artists">
-        <div class="container">
-            <div class="row">
-                <div class="col-8"></div>
-                <div class="col-4"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="news">
+    <section class="news"><!--- NEWS --->
         <div class="container">
             <div class="row">
                 <div class="col-8 offset-md-4"></div>
@@ -81,18 +114,18 @@
                 <div class="col-7"></div>
             </div>
         </div>
-    </section>
+    </section><!--- END NEWS --->
 
-    <section class="listen">
+    <section class="listen"><!--- LISTEN & WATCH --->
         <div class="container">
             <div class="row">
                 <div class="col-8"></div>
                 <div class="col-4"></div>
             </div>
         </div>
-    </section>
+    </section><!--- END LISTEN & WATCH --->
 
-    <footer>
+    <footer><!--- FOOTER --->
         <div class="container">
             <div class="row">
                 <div class="col-3"></div>
@@ -100,7 +133,7 @@
                 <div class="col-6"></div>
             </div>
         </div>
-    </footer>
+    </footer><!--- END FOOTER --->
 </body>
 
 </html>
