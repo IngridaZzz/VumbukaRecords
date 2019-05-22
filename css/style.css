@@ -13,9 +13,9 @@ h2 {
     font-family: interstate, sans-serif;
     font-weight: 800;
     font-size: 52px;
-    text-transform: uppercase;
     color: #C95B28;
-    text-shadow: -3px 2px 0 #D6845E;
+    text-transform: uppercase;
+	text-shadow: -3px 2px 0 #D6845E;
 }
 
 
@@ -30,6 +30,7 @@ header {
     width: 80px;
 }
 
+
 nav a {
     text-decoration: none;
     color: #333333;
@@ -39,26 +40,26 @@ nav a {
 nav a:hover {
     text-decoration: none;
     color: #c95b28;
-    transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;  
 }
 
 
 
-/* HOMEPAGE TOP BANNER */
+/* TOP BANNER */
 
 .top-banner {
-    min-height: 750px;
+	min-height: 750px;
 }
 
 .wrap {
-    width: 100%;
+	width: 100%;
 }
 
 .top-img {
-    background: url(../img/top-img.jpg) no-repeat;
-    height: 500px;
-    background-position: right;
-}
+	background: url(../img/top-img.jpg) no-repeat;
+	height: 500px;
+	background-position: right;
+}  
 
 .no-space {
     padding-right: 0;
@@ -68,7 +69,7 @@ nav a:hover {
 .purple-box {
     background-color: #6b3758;
     height: 310px;
-    bottom: 110px;
+    bottom: 15%;
     right: 0;
     position: absolute;
 }
@@ -79,6 +80,140 @@ nav a:hover {
     padding: 35px 35px;
     margin-top: -80px;
 }
+
+/* RELEASE */
+
+.release {
+	margin-top: 50px;
+}
+
+.album-cover {
+    -webkit-box-shadow: 35px 35px 0px -9px rgba(214,132,94,1);
+-moz-box-shadow: 35px 35px 0px -9px rgba(214,132,94,1);
+box-shadow: 35px 35px 0px -9px rgba(214,132,94,1);
+}
+
+.album-cover img {
+	width: 100%;
+}
+
+.zigzag-release {
+	background: url(../img/zigzag-release.svg);
+	margin-top: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.wordbreak {
+	word-spacing: 100vw;
+	color: #C95B28;
+}
+
+.release-box {
+	background-color: #fff;
+	padding: 20px 30px;
+}
+
+.orange-box {
+	background-color: #D6845E;
+	height: 300px;
+	position: absolute;
+	margin-top: -80px;
+}
+
+/* ARTISTS */
+
+.artists {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+img.sandy {
+    width: 100%;
+}
+
+.zigzag {
+    background: url(../img/zig-zag.svg);
+    height: 286px;
+    top: 180px;
+}
+
+.artists-text {
+    background-color: #fff;
+    padding: 5%;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+
+.artists-text h2 {
+    position: absolute;
+    top: -35px;
+    color: #C95B28;
+}
+
+.p-box {
+    width: 450px;
+    height: 300px;
+    background-color: #6b3758;
+    position: absolute;
+    top: -55px;
+    left: 340px;
+}
+
+.artist-box {
+	background-color: #fff;
+}
+
+/* NEWS */
+
+.news-img {
+	background: url(../img/img-1.png);
+}
+
+.news-box {
+	background-color: #D6845E;
+	padding: 20px;
+}
+
+/* L&W */
+
+.listen {
+	margin-top: 100px;
+}
+
+.spotify {
+	margin-top: -45px;
+    z-index: 999;
+    position: relative;
+}
+
+.lw-box {
+	background-color: #6B3758;
+	position: absolute;
+    width: 100%;
+    height: 450px;
+    z-index: 2;
+    top: -60px;
+    right: 100px;
+}
+
+.yt-video {
+	z-index: 3;
+}
+
+.lw-zigzag {
+	background: url(../img/zig-zag.svg);
+	position: absolute;
+	z-index: 1;
+    width: 600px;
+    height: 200px;
+    right: 0;
+    top: 250px;
+}
+
+
+/* SUBPAGES */
 
 /* SUBPAGES TOP BANNER */
 .top-image {
@@ -102,63 +237,6 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-/* HOMEPAGE RELEASE */
-
-.album-cover {
-    background: url(../img/album-cover.png) no-repeat;
-    height: 350px;
-    background-size: cover;
-}
-
-.orange-box {
-    background-color: #D6845E;
-    position: absolute;
-}
-
-/* HOMEPAGE ARTISTS */
-
-.artists {
-    margin-top: 15%;
-}
-
-img.sandy {
-    width: 100%;
-}
-
-.zigzag {
-    background: url(../img/zig-zag.svg);
-    height: 286px;
-    top: 180px;
-}
-
-.artists-text {
-    background-color: #fff;
-    width: 650px;
-    height: 218px;
-    padding: 5%;
-    position: absolute;
-    top: 0px;
-    left: 60px;
-}
-
-.artists-text h2 {
-    position: absolute;
-    top: -35px;
-}
-
-.p-box {
-    width: 450px;
-    height: 300px;
-    background-color: #6b3758;
-    position: absolute;
-    top: -55px;
-    left: 340px;
-}
-
-/* END HOMEPAGE ARTISTS */
-
-
-/* SUBPAGES */
 
 /* ARTISTS */
 
@@ -269,3 +347,34 @@ footer p {
 }
 
 /* END FOOTER */
+
+/* RESPONSIVE */
+
+@media (min-width: 576px) {
+    .container-half { max-width: calc(540px / 2); }
+}
+
+@media only screen and (max-width: 768px) {
+  .orange-box {
+    display: none;
+  }
+  .zigzag {
+	  top:0;
+  }
+  .spotify {
+	  margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+    .container-half { max-width: calc(720px / 2); }
+    .container-half-md-left { margin-right: 0; }
+}
+
+@media (min-width: 992px) {
+    .container-half { max-width: calc(960px / 2); }
+}
+
+@media (min-width: 1200px) {
+    .container-half { max-width: calc(1140px / 2); }
+}
