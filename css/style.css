@@ -144,6 +144,7 @@ img.sandy {
 .artists-text h2 {
     position: absolute;
     top: -35px;
+    color: #C95B28;
 }
 
 .p-box {
@@ -171,11 +172,11 @@ img.sandy {
 }
 
 .zig-zag {
-    background: url(../img/zig-zag.svg);
+    background: url(../img/zig-zag-purple.svg);
     height: 170px;
     position: absolute;
-    right: 610px;
-    bottom: 200px;
+    right: 608px;
+    bottom: 24px;
 }
 
 /* END ARTISTS */
