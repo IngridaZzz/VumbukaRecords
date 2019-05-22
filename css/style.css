@@ -121,7 +121,7 @@ box-shadow: 35px 35px 0px -9px rgba(214,132,94,1);
 	margin-top: -80px;
 }
 
-/* ARTISTS */
+/* HOMEPAGE ARTISTS */
 
 .artists {
     margin-top: 150px;
@@ -237,6 +237,10 @@ img.sandy {
     text-transform: uppercase;
 }
 
+.sub-banner {
+	margin-bottom: 150px;
+}
+
 
 /* ARTISTS */
 
@@ -258,11 +262,123 @@ img.sandy {
 
 /* END ARTISTS */
 
+/* SUBPAGE ABOUT */
+
+.orange-box-about {
+	background-color: #D6845E;
+	height: 300px;
+	position: absolute;
+}
+
+.img-3 {
+	bottom: 75px;
+}
+
+.zigzag-story {
+	background: url(../img/zigzag-release.svg);
+	height: 200px;
+	position: absolute;
+	margin-top: 130px;
+	left: 0;
+}
+
+.story-box {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.vr {
+	margin-top: 150px;
+}
+
+.img-box {
+	position: relative;
+	z-index: 2;
+}
+
+.purple-box-about {
+	background-color: #6B3758;
+    height: 300px;
+    position: absolute;
+    width: 70%;
+    bottom: -38px;
+    right: 0;
+}
+
+.zigzag-vr {
+	background: url(../img/zig-zag.svg);
+	height: 250px;
+	position: absolute;
+	margin-top: 130px;
+	left: 0;
+	background-size: contain;
+}
+
+.vr-box {
+	background-color: #fff;
+	padding: 20px;
+	margin:  0 20px;
+}
+
+.qhum {
+	margin-top: 150px;
+}
+
+.orange-box-qhum {
+	background-color: #D6845E;
+    height: 330px;
+    position: absolute;
+    right: 0;
+    width: 570px;
+    top: 20px;
+}
+
+.qhum-box {
+	background-color: #fff;
+    padding: 30px 20px 15px 0;
+    z-index: 3;
+    margin-top: -25px;
+    position: relative;
+}
+
+.qhum h2 {
+	z-index: 5;
+    position: relative;
+}
+
+.zigzag-qhum {
+	background: url(../img/zigzag-release.svg);
+	height: 200px;
+	position: absolute;
+	right: 20px;
+    z-index: 2;
+    width: 640px;
+}
+
+.video {
+	margin-top: 120px;
+}
+
+.yt-video-about {
+	-webkit-box-shadow: 82px 78px 0px -9px rgba(205,105,59,1);
+	-moz-box-shadow: 82px 78px 0px -9px rgba(205,105,59,1);
+	box-shadow: 82px 78px 0px -9px rgba(205,105,59,1);
+	z-index: 2;
+}
+
+.zigzag-video {
+	background: url(../img/zigzag-release.svg);
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+    bottom: -90px;
+    width: 600px;
+}
 
 /* FOOTER */
 footer {
     background-color: #422233;
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 2.5%;
     font-size: 16px;
 }
@@ -363,6 +479,9 @@ footer p {
   }
   .spotify {
 	  margin-top: 20px;
+  }
+  .orange-box-about {
+	  position: static;
   }
 }
 
