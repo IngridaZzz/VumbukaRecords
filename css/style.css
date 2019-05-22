@@ -162,7 +162,21 @@ img.sandy {
 
 /* ARTISTS */
 
+.artist-img img {
+    width: 100%;
+}
 
+.artists-row {
+    margin-top: 100px;
+}
+
+.zig-zag {
+    background: url(../img/zig-zag.svg);
+    height: 170px;
+    position: absolute;
+    right: 610px;
+    bottom: 200px;
+}
 
 /* END ARTISTS */
 
