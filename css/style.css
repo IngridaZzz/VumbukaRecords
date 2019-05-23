@@ -375,6 +375,59 @@ img.sandy {
     width: 600px;
 }
 
+/* CONTACT */
+
+.contact-box {
+	background-color: #fff;
+    padding: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.orange-box-contact {
+	background-color: #CD693B;
+	position: absolute;
+    height: 400px;
+    width: 70%;
+    right: 203px;
+    top: -35px;
+    z-index: 1;
+}
+
+.contact-form {
+	background-color: #6B3758;
+	padding: 20px;
+	-webkit-box-shadow: 64px 54px 0px -9px rgba(205,105,59,1);
+-moz-box-shadow: 64px 54px 0px -9px rgba(205,105,59,1);
+box-shadow: 64px 54px 0px -9px rgba(205,105,59,1);
+}
+
+.form-control {
+	border: none;
+	border-radius: 0;
+	padding: 20px;
+}
+
+.btn-primary {
+	background-color: #C95B28;
+	border-color: #C95B28;
+	border-radius: 0;
+	padding: 10px 30px;
+}
+
+.zigzag-contact {
+	background: url(../img/zigzag-release.svg);
+    height: 240px;
+    z-index: 2;
+    width: 100%;
+    bottom: 130px;
+    position: absolute;
+}
+
+.fa-phone, .fa-envelope {
+	padding-right: 10px;
+}
+
 /* FOOTER */
 footer {
     background-color: #422233;
@@ -482,6 +535,9 @@ footer p {
   }
   .orange-box-about {
 	  position: static;
+  }
+  .contact-form {
+	  margin-top: 145px;
   }
 }
 
