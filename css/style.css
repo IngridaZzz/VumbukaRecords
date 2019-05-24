@@ -246,11 +246,11 @@ img.sandy {
 }
 
 .sub-banner {
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 
 
-/* ARTISTS */
+/* SUBPAGE ARTISTS */
 
 article {
     padding: 0% 10%;
@@ -283,7 +283,7 @@ article p {
     height: 170px;
     position: absolute;
     left: -1%;
-    bottom: -17%;
+    bottom: -13%;
 }
 
 .artist-name {
@@ -298,19 +298,13 @@ article p {
 .light-orange {
     background-color: #D6845E;
     display: inline-block;
-}
-
-.light-orange:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
 }
 
 .light-orange i {
     padding: 0;
     transition: all 0.3s ease-in-out;
-    text-align: center;
 }
 
 .fa-chevron-down {
@@ -324,14 +318,14 @@ article p {
     transition: transform .3s linear;
 }
 
-/* END Arrow rotation and center*/
+/* END arrow rotation and center*/
 
 .name-box {
     position: absolute;
     bottom: -8%;
 }
 
-/*Info boxes*/
+/* info boxes*/
 
 .info {
     background-color: #6B3758;
@@ -381,7 +375,8 @@ article p {
 #info-sandyb,
 #info-simoneaha {
     display: none;
-    margin-top: 7%;
+    margin-top: 17%;
+    transition: all .5s ease-in-out;
 }
 
 .some-artist li {
@@ -419,7 +414,7 @@ ul.some-artist {
     z-index: 1;
 }
 
-/* END ARTISTS */
+/* END SUBPAGE ARTISTS */
 
 /* SUBPAGE ABOUT */
 
@@ -646,7 +641,7 @@ footer {
     color: #fff;
     text-transform: uppercase;
     opacity: 0.7;
-    padding: 4%;
+    padding: 2%;
 }
 
 .footer-left a:hover {
@@ -710,14 +705,50 @@ footer p {
 
 /* RESPONSIVE */
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     .container-half {
         max-width: calc(540px / 2);
+    }
+
+    #info-sandyb,
+    #info-simoneaha {
+        margin-top: 10%;
+    }
+
+    .zig-zag {
+        bottom: 13%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    #info-sandyb,
+    #info-simoneaha {
+        margin-bottom: 10%;
+    }
+    
+    .blok {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    
+    ul.some-artist {
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container-half {
+        max-width: calc(720px / 2);
+    }
+
+    .container-half-md-left {
+        margin-right: 0;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    <<<<<<< HEAD .orange-box {
+    .orange-box {
         display: none;
     }
 
@@ -729,7 +760,7 @@ footer p {
         margin-top: 20px;
     }
 
-    =======.orange-box {
+    .orange-box {
         display: none;
     }
 
@@ -750,50 +781,54 @@ footer p {
     }
 
     .mb-3 {
-        margin-bottom: 0!important;
+        margin-bottom: 0 !important;
     }
-    
+
     .footer-left ul {
         margin-bottom: 0;
     }
-    
+
     .footer-right {
         text-align: center;
         padding-top: 4%;
     }
-    
+
     ul.some {
         padding: 0;
     }
-    
+
     ul.footer-menu {
         padding: 0;
-    } 
-    
+    }
+
     .bottom-logo {
-        padding-bottom: 4%;
+        padding-bottom: 10%;
     }
 
-}
-
-@media (min-width: 768px) {
-    .container-half {
-        max-width: calc(720px / 2);
-    }
-
-    .container-half-md-left {
-        margin-right: 0;
+    .fa-arrow-up {
+        display: none;
     }
 }
 
-@media (min-width: 992px) {
+@media only screen and (max-width: 992px) {
+    footer {
+        margin-top: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
     .container-half {
         max-width: calc(960px / 2);
     }
-}
 
-@media (min-width: 1200px) {
-    .container-half {
-        max-width: calc(1140px / 2);
+    #info-sandyb,
+    #info-simoneaha {
+        margin-top: 7%;
     }
-}
+
+    @media (min-width: 1200px) {
+        .container-half {
+            max-width: calc(1140px / 2);
+        }
+    }

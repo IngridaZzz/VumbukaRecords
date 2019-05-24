@@ -12,8 +12,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/qmr4apt.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#c95b28">
+    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 
@@ -35,7 +42,7 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="records.html">Records</a>
@@ -85,7 +92,7 @@
             </div>
 
             <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 order-1">
                     <div class="artist-img">
                         <img src="img/sandyb1.png" alt="Sandy B">
                     </div>
@@ -103,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 order-3 order-sm-2 blok">
                     <div class="artist-img">
                         <img src="img/simoneaha1.png" alt="Simone Ahá">
                     </div>
@@ -113,7 +120,7 @@
                                 <div class="col-8 offset-md-2 artist-name">
                                     <h3>Simone Ahá</h3>
                                 </div>
-                                <div id="arrow2" class="col-2 light-orange" onclick="simoneFunction()">
+                                <div id="arrow2" class="col-2 light-orange text-center" onclick="simoneFunction()">
                                     <i id="icon2" class="fas fa-chevron-down arrow2"></i>
                                 </div>
                             </div>
@@ -134,11 +141,11 @@
                     --->
                     </div>
                 </div>
-            </div>
+            
 
             <!--- COLLAPSE INFORMATION ABOUT ARTISTS --->
-            <div class="row">
-                <div id="info-sandyb">
+        
+                <div id="info-sandyb" class="order-2 order-sm-3">
                     <div class="col-12">
                         <div class="info info1">
                             <div class="row">
@@ -164,11 +171,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+           
 
-            <div class="row">
-                <div id="info-simoneaha">
-                    <div class="col-12">
+           
+                <div id="info-simoneaha" class="order-4">
+                    <div class="col-12 order-sm-4">
                         <div class="info info2">
                             <div class="row">
                                 <div class="col-12 col-md-8">
@@ -218,23 +225,20 @@
                     <img src="img/zigzag/zigzagbottom.svg" alt="zigzag" class="zz">
                 </div>
                 <!-- Grid column -->
-                <div class="col-md-2  mt-md-0 mt-3">
+                <div class="col-6 col-sm-6 col-md-2  mt-md-0 mt-3 mx-auto bottom-column">
 
                     <!-- Content -->
 
-                    <img src="img/VR-logo-white.svg" alt="Vumbuka Records Logo" class="buttom-logo">
+                    <a href="index.html"><img src="img/VR-logo-white.svg" alt="Vumbuka Records Logo" class="bottom-logo"></a>
 
                 </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
 
                 <!-- Grid column -->
                 <div class="col-md-1 mb-md-0 mb-3 footer-left">
 
                     <!-- Links -->
 
-                    <ul>
+                    <ul class="footer-menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="artists.html">Artists</a></li>
@@ -245,7 +249,7 @@
 
                 <!-- Grid column -->
                 <div class="col-md-1 mb-md-0 mb-3 footer-left">
-                    <ul>
+                    <ul class="footer-menu">
                         <li><a href="records.html">Records</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -256,9 +260,9 @@
 
                     <a href="#toppie"><i class="fas fa-arrow-up"></i></a>
                     <ul class="some">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/VumbukaRecords/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/vumbukarecords/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCYy0tA-s7Al9F4G-oj5vhlA"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="#"><i class="fab fa-spotify"></i></a></li>
                     </ul>
                     <p>Copyright 2019 - Vumbuka Records</p>
