@@ -534,6 +534,37 @@ ul.some-artist {
     width: 600px;
 }
 
+/* DETAILPAGE RECORDS */
+
+.record-box {
+	background-color: #fff;
+	padding: 10px 20px;
+	-webkit-box-shadow: 53px 40px 0px 0px rgba(107,55,88,1);
+	-moz-box-shadow: 53px 40px 0px 0px rgba(107,55,88,1);
+	box-shadow: 53px 40px 0px 0px rgba(107,55,88,1);
+}
+
+.zigzag-album {
+	background: url(../img/zigzag-release.svg);
+	position: absolute;
+	margin-top: 120px;
+    height: 200px;
+}
+
+.video-listen {
+	margin-top: 200px;
+}
+
+.vl-box {
+	background-color: #CD693B;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    z-index: 2;
+    top: -60px;
+    right: 100px;
+}
+
 /* CONTACT */
 
 .contact-box {
