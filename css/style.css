@@ -526,7 +526,7 @@ ul.some-artist {
     position: absolute;
     z-index: 1;
     bottom: -90px;
-    width: 600px;
+    width: 95%;
 }
 
 /* DETAILPAGE RECORDS */
