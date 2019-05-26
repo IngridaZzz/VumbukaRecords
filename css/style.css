@@ -826,9 +826,14 @@ footer p {
     #info-simoneaha {
         margin-top: 7%;
     }
-
+}
     @media (min-width: 1200px) {
         .container-half {
             max-width: calc(1140px / 2);
         }
     }
+@media only screen and (max-width: 1200px) {
+	.artists-text h2 {
+		top: -105px;
+	}
+}
