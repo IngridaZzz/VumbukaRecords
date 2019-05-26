@@ -27,6 +27,7 @@ h3 {
 }
 
 
+
 /* MENU - NAVIGATION */
 
 header {
@@ -161,7 +162,6 @@ img.sandy {
 }
 
 .p-box {
-    width: 450px;
     height: 300px;
     background-color: #6b3758;
     position: absolute;
@@ -376,7 +376,6 @@ article p {
 #info-simoneaha {
     display: none;
     margin-top: 17%;
-    transition: all .5s ease-in-out;
 }
 
 .some-artist li {
@@ -412,6 +411,10 @@ ul.some-artist {
     left: -60px;
     bottom: 96px;
     z-index: 1;
+}
+
+.show {
+	display: block;
 }
 
 /* END SUBPAGE ARTISTS */
@@ -602,11 +605,7 @@ ul.some-artist {
 
 .zigzag-contact {
     background: url(../img/zigzag-release.svg);
-    height: 240px;
-    z-index: 2;
     width: 100%;
-    bottom: 130px;
-    position: absolute;
 }
 
 .fa-phone,
@@ -807,6 +806,25 @@ footer p {
 
     .fa-arrow-up {
         display: none;
+    }
+    .p-box {
+	    position: sticky;
+    }
+    .artists-text {
+	    left:0;
+    }
+    .release-box {
+	    padding: 0;
+    }
+    .vr-box {
+	    padding: 0;
+	    margin: 0;
+    }
+    .page-box {
+	    left: 0;
+    }
+    .img-3 {
+	    bottom: 0;
     }
 }
 

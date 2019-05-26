@@ -1,3 +1,17 @@
+// 	JQUERY COLLAPSE BOX WITH TRANSITION
+$(document).ready(function(){
+  $("#arrow1").click(function(){
+    $("#info-sandyb").slideToggle("300ms","linear");
+    $("#info-simoneaha").slideUp("300ms","linear");
+  });
+  $("#arrow2").click(function(){
+    $("#info-simoneaha").slideToggle("300ms","linear");
+    $("#info-sandyb").slideUp("300ms","linear");
+  });
+});
+
+// 	VANILLA JS WITHOUT TRANSITION FOR COLLAPSE INFO-BOX 
+/*
 function sandybFunction() {
     var x = document.getElementById("info-sandyb");
     var y = document.getElementById("info-simoneaha");
@@ -49,6 +63,7 @@ function simoneFunction() {
         open = !open;
     });
 })(document);
+*/
 
 //(function (document) {
 //    var div2 = document.getElementById('arrow2');
