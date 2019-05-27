@@ -952,6 +952,10 @@ footer p {
 	.contact-zigzag-2  {
 		display: none;
 	}
+	.artists {
+		margin-top: 260px;
+		margin-bottom: 80px;
+	}
 }
 
 @media only screen and (max-width: 992px) {
