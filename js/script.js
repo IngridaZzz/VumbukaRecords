@@ -1,13 +1,19 @@
 // 	JQUERY COLLAPSE BOX WITH TRANSITION
-$(document).ready(function(){
-  $("#arrow1").click(function(){
-    $("#info-sandyb").slideToggle("300ms","linear");
-    $("#info-simoneaha").slideUp("300ms","linear");
-  });
-  $("#arrow2").click(function(){
-    $("#info-simoneaha").slideToggle("300ms","linear");
-    $("#info-sandyb").slideUp("300ms","linear");
-  });
+$(document).ready(function () {
+    //action - when you click arrow1
+    $("#arrow1").click(function () {
+        //info sandy b slides open with transition
+        $("#info-sandyb").slideToggle("300ms", "linear");
+        //if info-simoneaha is open, it closes
+        $("#info-simoneaha").slideUp("300ms", "linear");
+    });
+    //action - when you click arrow2
+    $("#arrow2").click(function () {
+        //info simone aha slides open with transition
+        $("#info-simoneaha").slideToggle("300ms", "linear");
+        //if info-sandyb is open, it closes
+        $("#info-sandyb").slideUp("300ms", "linear");
+    });
 });
 
 // 	VANILLA JS WITHOUT TRANSITION FOR COLLAPSE INFO-BOX 
@@ -43,40 +49,46 @@ function simoneFunction() {
         x.style.display = "none";
     }
 }
+*/
 
+
+//ARROWS TURN ON CLICK
 (function (document) {
     var div = document.getElementById('arrow1');
     var icon = document.getElementById('icon');
-    var div2 = document.getElementById('arrow2');
-    var icon2 = document.getElementById('icon2');
     var open = false;
 
+    //action - when clicking on arrow 1
     div.addEventListener('click', function () {
+        //If the arrow1 is not open (open=false)
         if (open) {
+            //then arrow1 should turn
             icon.className = 'fas fa-chevron-down arrow1';
-            icon2.className = 'fas fa-chevron-down arrow2 open';
         } else {
+            //If arrow1 is open, it should turn back
             icon.className = 'fas fa-chevron-down arrow1 open';
-            icon2.className = 'fas fa-chevron-down arrow2';
         }
 
         open = !open;
     });
 })(document);
-*/
 
-//(function (document) {
-//    var div2 = document.getElementById('arrow2');
-//    var icon2 = document.getElementById('icon2');
-//    var open = false;
-//
-//    div2.addEventListener('click', function() {
-//        if (open) {
-//            icon2.className = 'fas fa-chevron-down arrow2';
-//        } else {
-//            icon2.className = 'fas fa-chevron-down arrow2 open';
-//        }
-//
-//        open = !open;
-//    });
-//})(document);
+
+(function (document) {
+    var div2 = document.getElementById('arrow2');
+    var icon2 = document.getElementById('icon2');
+    var open = false;
+
+    //action - when clicking on arrow 2
+    div2.addEventListener('click', function () {
+        if (open) {
+            //then arrow2 should turn
+            icon2.className = 'fas fa-chevron-down arrow2';
+        } else {
+            //If arrow1 is open, it should turn back
+            icon2.className = 'fas fa-chevron-down arrow2 open';
+        }
+
+        open = !open;
+    });
+})(document);

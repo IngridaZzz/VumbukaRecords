@@ -108,7 +108,6 @@ nav a:hover {
 }
 
 /* RELEASE */
-
 .release {
     margin-top: 50px;
 }
@@ -200,6 +199,7 @@ img.sandy {
 
 /* NEWS */
 
+/*
 .news-img {
     background: url(../img/img-1.png);
 }
@@ -208,8 +208,9 @@ img.sandy {
     background-color: #D6845E;
     padding: 20px;
 }
+*/
 
-/* L&W */
+/* LISTEN & WATCH */
 
 .lw {
     z-index: 3;
@@ -246,7 +247,7 @@ img.sandy {
 }
 
 
-/* SUBPAGES */
+/* --------------------------------- SUBPAGES ---------------------------------- */
 
 /* SUBPAGES TOP BANNER */
 .top-image {
@@ -439,7 +440,7 @@ ul.some-artist {
 }
 
 .show {
-	display: block;
+    display: block;
 }
 
 /* END SUBPAGE ARTISTS */
@@ -604,6 +605,7 @@ ul.some-artist {
 }
 
 
+/* END SUBPAGE ABOUT */
 
 /* DETAILPAGE RECORDS */
 
@@ -699,6 +701,7 @@ ul.some-artist {
 .fa-envelope {
     padding-right: 10px;
 }
+/* END CONTACT */
 
 .contact-zigzag {
 	background: url(../img/zigzag/zigzag4.svg) no-repeat;
@@ -914,24 +917,30 @@ footer p {
     .fa-arrow-up {
         display: none;
     }
+
     .p-box {
-	    position: sticky;
+        position: sticky;
     }
+
     .artists-text {
-	    left:0;
+        left: 0;
     }
+
     .release-box {
-	    padding: 0;
+        padding: 0;
     }
+
     .vr-box {
-	    padding: 0;
-	    margin: 0;
+        padding: 0;
+        margin: 0;
     }
+
     .page-box {
-	    left: 0;
+        left: 0;
     }
+
     .img-3 {
-	    bottom: 0;
+        bottom: 0;
     }
     .artists-zigzag {
 	    display: none;
