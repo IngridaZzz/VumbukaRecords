@@ -75,6 +75,15 @@ nav a:hover {
     margin-right: 15px;
 }
 
+.front-zigzag {
+	background: url(../img/zigzag/zigzag4.svg) no-repeat;
+	height: 200px;
+    width: 50px;
+    bottom: 100px;
+    right: 0;
+    position: absolute;
+}
+
 .purple-box {
     background-color: #6b3758;
     height: 310px;
@@ -464,6 +473,28 @@ ul.some-artist {
     padding: 20px;
 }
 
+.hz-zigzag {
+	background: url(../img/zigzag/zigzag1.svg) no-repeat;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	width: 50px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+}
+
+.vr-zigzag {
+	background: url(../img/zigzag/zigzag1.svg) no-repeat;
+	height: 200px; 
+}
+
+.qhum-zigzag {
+	background: url(../img/zigzag/zigzag1.svg) no-repeat;
+    height: 200px;
+    margin-left: 140px;
+    bottom: -200px;
+}
+
 .vr {
     margin-top: 150px;
 }
@@ -473,13 +504,10 @@ ul.some-artist {
     z-index: 2;
 }
 
-.purple-box-about {
-    background-color: #6B3758;
-    height: 300px;
-    position: absolute;
-    width: 70%;
-    bottom: -38px;
-    right: 0;
+.img-box-vr {
+	-webkit-box-shadow: 119px 63px 0px 0px rgba(107,55,88,1);
+	-moz-box-shadow: 119px 63px 0px 0px rgba(107,55,88,1);
+	box-shadow: 119px 63px 0px 0px rgba(107,55,88,1);
 }
 
 .zigzag-vr {
@@ -552,6 +580,31 @@ ul.some-artist {
     width: 95%;
 }
 
+/* SUBPAGE RECORDS */
+
+.rm-box {
+	position: absolute;
+	bottom: -8%;
+}
+
+.readmore {
+	background-color: #C95B28;
+	padding: 10px 20px;
+}
+
+.next {
+	background-color: #D6845E;
+	display: inline-block;
+    line-height: 60px;
+    color: #333;
+}
+
+.next:hover {
+	color: #333;
+}
+
+
+
 /* DETAILPAGE RECORDS */
 
 .record-box {
@@ -565,8 +618,16 @@ ul.some-artist {
 .zigzag-album {
     background: url(../img/zigzag-release.svg);
     position: absolute;
-    margin-top: 120px;
+    margin-top: 138px;
     height: 200px;
+}
+
+.artists-zigzag {
+	background: url(../img/zigzag/zigzag1.svg) no-repeat;
+    height: 200px;
+    z-index: 999;
+    bottom: -70px;
+    position: absolute;
 }
 
 .video-listen {
@@ -623,14 +684,36 @@ ul.some-artist {
     padding: 10px 30px;
 }
 
+.btn-primary:hover {
+	background-color: #D6845E;
+	border-color: #D6845E;
+}
+
 .zigzag-contact {
     background: url(../img/zigzag-release.svg);
     width: 100%;
+    height: 364px;
 }
 
 .fa-phone,
 .fa-envelope {
     padding-right: 10px;
+}
+
+.contact-zigzag {
+	background: url(../img/zigzag/zigzag4.svg) no-repeat;
+	height: 200px;
+	float: right;
+    width: 50px;
+}
+
+.contact-zigzag-2 {
+	background: url(../img/zigzag/zigzag1.svg) no-repeat;
+	height: 200px;
+	float: right;
+    width: 100px;
+   	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 /* FOOTER */
@@ -850,6 +933,12 @@ footer p {
     .img-3 {
 	    bottom: 0;
     }
+    .artists-zigzag {
+	    display: none;
+	}
+	.contact-zigzag-2  {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 992px) {
