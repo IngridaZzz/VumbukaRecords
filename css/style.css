@@ -87,7 +87,7 @@ nav a:hover {
 .purple-box {
     background-color: #6b3758;
     height: 310px;
-    bottom: 20%;
+    bottom: -90px;
     right: 0;
     position: absolute;
 }
@@ -105,6 +105,10 @@ nav a:hover {
 
 .title-box p {
     color: #EECEBE;
+}
+
+.move {
+	position: relative;
 }
 
 /* RELEASE */
@@ -919,7 +923,7 @@ footer p {
     }
 
     .p-box {
-        position: sticky;
+        display: none;
     }
 
     .artists-text {
@@ -947,6 +951,10 @@ footer p {
 	}
 	.contact-zigzag-2  {
 		display: none;
+	}
+	.artists {
+		margin-top: 260px;
+		margin-bottom: 80px;
 	}
 }
 
