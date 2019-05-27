@@ -1,6 +1,6 @@
 <?php 
 $errors = ''; //error bericht
-$myemail = 'timosmit95@gmail.com';
+$myemail = 'vumbukarecords@gmail.com';
 if(empty($_POST['firstname'])  ||
 	empty($_POST['lastname']) ||  
    empty($_POST['email']) || 
