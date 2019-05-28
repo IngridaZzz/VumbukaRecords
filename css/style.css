@@ -111,6 +111,11 @@ nav a:hover {
 	position: relative;
 }
 
+iframe {
+	border: 0;
+	width: 100%;
+}
+
 /* RELEASE */
 .release {
     margin-top: 50px;
@@ -289,6 +294,11 @@ article {
 article p {
     color: #fff;
     line-height: 1.65;
+}
+
+article h4 {
+    color: #fff;
+    font-weight: 900;
 }
 
 .artist-img img {
@@ -665,7 +675,7 @@ ul.some-artist {
     height: 400px;
     width: 70%;
     right: 203px;
-    top: -35px;
+    top: -20px;
     z-index: 1;
 }
 
@@ -721,6 +731,10 @@ ul.some-artist {
     width: 100px;
    	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
+}
+
+.contact h5 {
+	font-weight: 900;
 }
 
 /* FOOTER */
