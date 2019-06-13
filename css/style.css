@@ -5,7 +5,7 @@ body {
 h1 {
     font-family: interstate, sans-serif;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 37px;
     text-transform: uppercase;
 }
 
@@ -35,8 +35,12 @@ header {
     margin-bottom: 1%;
 }
 
-.logo img {
+.vr-logo {
     width: 80px;
+}
+
+.vr-logo:hover {
+    fill: #c95b28;
 }
 
 
@@ -76,11 +80,11 @@ nav a:hover {
 }
 
 .front-zigzag {
-	background: url(../img/zigzag/zigzag4.svg) no-repeat;
-	height: 200px;
+    background: url(../img/zigzag/zigzag4.svg) no-repeat;
+    height: 200px;
     width: 50px;
     bottom: 100px;
-    right: 0;
+    right: -11px;
     position: absolute;
 }
 
@@ -108,12 +112,12 @@ nav a:hover {
 }
 
 .move {
-	position: relative;
+    position: relative;
 }
 
 iframe {
-	border: 0;
-	width: 100%;
+    border: 0;
+    width: 100%;
 }
 
 /* RELEASE */
@@ -475,8 +479,8 @@ ul.some-artist {
     background: url(../img/zigzag-release.svg);
     height: 200px;
     position: absolute;
-    margin-top: 130px;
-    left: 0;
+    margin-top: 270px;
+    left: -39px;
 }
 
 .story {
@@ -486,28 +490,6 @@ ul.some-artist {
 .story-box {
     background-color: #fff;
     padding: 20px;
-}
-
-.hz-zigzag {
-	background: url(../img/zigzag/zigzag1.svg) no-repeat;
-	-webkit-transform: rotate(90deg);
-	transform: rotate(90deg);
-	width: 50px;
-    height: 200px;
-    position: absolute;
-    top: -100px;
-}
-
-.vr-zigzag {
-	background: url(../img/zigzag/zigzag1.svg) no-repeat;
-	height: 200px; 
-}
-
-.qhum-zigzag {
-	background: url(../img/zigzag/zigzag1.svg) no-repeat;
-    height: 200px;
-    margin-left: 140px;
-    bottom: -200px;
 }
 
 .vr {
@@ -520,17 +502,17 @@ ul.some-artist {
 }
 
 .img-box-vr {
-	-webkit-box-shadow: 119px 63px 0px 0px rgba(107,55,88,1);
-	-moz-box-shadow: 119px 63px 0px 0px rgba(107,55,88,1);
-	box-shadow: 119px 63px 0px 0px rgba(107,55,88,1);
+    -webkit-box-shadow: 119px 63px 0px 0px rgba(107, 55, 88, 1);
+    -moz-box-shadow: 119px 63px 0px 0px rgba(107, 55, 88, 1);
+    box-shadow: 119px 63px 0px 0px rgba(107, 55, 88, 1);
 }
 
 .zigzag-vr {
     background: url(../img/zig-zag.svg);
     height: 250px;
     position: absolute;
-    margin-top: 130px;
-    left: 0;
+    margin-top: 430px;
+    left: -25px;
     background-size: contain;
 }
 
@@ -555,24 +537,15 @@ ul.some-artist {
 
 .qhum-box {
     background-color: #fff;
-    padding: 30px 20px 15px 0;
+    padding: 70px 20px 15px 0;
     z-index: 3;
-    margin-top: -25px;
+    margin-top: -53px;
     position: relative;
 }
 
 .qhum h2 {
     z-index: 5;
     position: relative;
-}
-
-.zigzag-qhum {
-    background: url(../img/zigzag-release.svg);
-    height: 200px;
-    position: absolute;
-    right: 20px;
-    z-index: 2;
-    width: 640px;
 }
 
 .video {
@@ -598,24 +571,24 @@ ul.some-artist {
 /* SUBPAGE RECORDS */
 
 .rm-box {
-	position: absolute;
-	bottom: -8%;
+    position: absolute;
+    bottom: -8%;
 }
 
 .readmore {
-	background-color: #C95B28;
-	padding: 10px 20px;
+    background-color: #C95B28;
+    padding: 10px 20px;
 }
 
 .next {
-	background-color: #D6845E;
-	display: inline-block;
+    background-color: #D6845E;
+    display: inline-block;
     line-height: 60px;
     color: #333;
 }
 
 .next:hover {
-	color: #333;
+    color: #333;
 }
 
 
@@ -639,7 +612,7 @@ ul.some-artist {
 }
 
 .artists-zigzag {
-	background: url(../img/zigzag/zigzag1.svg) no-repeat;
+    background: url(../img/zigzag/zigzag1.svg) no-repeat;
     height: 200px;
     z-index: 999;
     bottom: -70px;
@@ -701,8 +674,8 @@ ul.some-artist {
 }
 
 .btn-primary:hover {
-	background-color: #D6845E;
-	border-color: #D6845E;
+    background-color: #D6845E;
+    border-color: #D6845E;
 }
 
 .zigzag-contact {
@@ -715,32 +688,33 @@ ul.some-artist {
 .fa-envelope {
     padding-right: 10px;
 }
+
 /* END CONTACT */
 
 .contact-zigzag {
-	background: url(../img/zigzag/zigzag4.svg) no-repeat;
-	height: 200px;
-	float: right;
+    background: url(../img/zigzag/zigzag4.svg) no-repeat;
+    height: 200px;
+    float: right;
     width: 50px;
 }
 
 .contact-zigzag-2 {
-	background: url(../img/zigzag/zigzag1.svg) no-repeat;
-	height: 200px;
-	float: right;
+    background: url(../img/zigzag/zigzag1.svg) no-repeat;
+    height: 200px;
+    float: right;
     width: 100px;
-   	-webkit-transform: rotate(90deg);
-	transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .contact h5 {
-	font-weight: 900;
+    font-weight: 900;
 }
 
 /* FOOTER */
 footer {
     background-color: #422233;
-    margin-top: 10%;
+    margin-top: 50%;
     padding: 2.5%;
     font-size: 16px;
 }
@@ -845,6 +819,10 @@ footer p {
     .story {
         margin-top: 20%;
     }
+
+    footer {
+        margin-top: 30%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -862,6 +840,10 @@ footer p {
     ul.some-artist {
         margin-bottom: 15%;
     }
+
+    .front-zigzag {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -871,6 +853,36 @@ footer p {
 
     .container-half-md-left {
         margin-right: 0;
+    }
+
+    .zigzag-story {
+        margin-top: 484px;
+    }
+
+    .hz-zigzag {
+        background: url(../img/zigzag/zigzag1.svg) no-repeat;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 50px;
+        height: 200px;
+        position: absolute;
+        top: -100px;
+    }
+
+    .vr-zigzag {
+        background: url(../img/zigzag/zigzag1.svg) no-repeat;
+        height: 200px;
+    }
+
+    .qhum-zigzag {
+        background: url(../img/zigzag/zigzag1.svg) no-repeat;
+        height: 200px;
+        margin-left: 140px;
+        bottom: -200px;
+    }
+
+    .zigzag-vr {
+        margin-top: 561px;
     }
 }
 
@@ -887,10 +899,6 @@ footer p {
         margin-top: 20px;
     }
 
-    .orange-box {
-        display: none;
-    }
-
     .zigzag {
         top: 0;
     }
@@ -901,6 +909,7 @@ footer p {
 
     .orange-box-about {
         position: static;
+        margin-bottom: 57px;
     }
 
     .contact-form {
@@ -944,13 +953,8 @@ footer p {
         left: 0;
     }
 
-    .release-box {
-        padding: 0;
-    }
-
     .vr-box {
-        padding: 0;
-        margin: 0;
+        margin: 70px 0;
     }
 
     .page-box {
@@ -960,21 +964,27 @@ footer p {
     .img-3 {
         bottom: 0;
     }
-    .artists-zigzag {
-	    display: none;
-	}
-	.contact-zigzag-2  {
-		display: none;
-	}
-	.artists {
-		margin-top: 260px;
-		margin-bottom: 80px;
-	}
-}
 
-@media only screen and (max-width: 992px) {
-    footer {
-        margin-top: 20%;
+    .artists-zigzag {
+        display: none;
+    }
+
+    .contact-zigzag-2 {
+        display: none;
+    }
+
+    .artists {
+        margin-top: 260px;
+        margin-bottom: 80px;
+    }
+
+    .zigzag-release {
+        margin-top: 213px;
+        margin-left: -20px;
+    }
+
+    .release-box {
+        margin-top: 27px;
     }
 }
 
@@ -992,11 +1002,38 @@ footer p {
     .story {
         margin-top: 10%;
     }
+
+    .zigzag-story {
+        margin-top: 286px;
+    }
+
+    footer {
+        margin-top: 20%;
+    }
+
+    .zigzag-vr {
+        margin-top: 373px;
+        left: -62px;
+    }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (max-width: 992px) {
+    .orange-box {
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
     .container-half {
         max-width: calc(1140px / 2);
+    }
+
+    .zigzag-story {
+        margin-top: 238px;
+    }
+
+    .zigzag-vr {
+        margin-top: 307px;
     }
 }
 

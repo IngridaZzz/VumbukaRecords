@@ -17,6 +17,7 @@ $(document).ready(function () {
 });
 
 // 	VANILLA JS WITHOUT TRANSITION FOR COLLAPSE INFO-BOX 
+
 /*
 function sandybFunction() {
     var x = document.getElementById("info-sandyb");
