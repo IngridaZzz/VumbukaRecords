@@ -602,12 +602,13 @@ ul.some-artist {
     -webkit-box-shadow: 53px 40px 0px 0px rgba(107, 55, 88, 1);
     -moz-box-shadow: 53px 40px 0px 0px rgba(107, 55, 88, 1);
     box-shadow: 53px 40px 0px 0px rgba(107, 55, 88, 1);
+    padding-bottom: 5%;
 }
 
 .zigzag-album {
     background: url(../img/zigzag-release.svg);
     position: absolute;
-    margin-top: 138px;
+    margin-top: 182px;
     height: 200px;
 }
 
@@ -631,6 +632,21 @@ ul.some-artist {
     z-index: 2;
     top: -60px;
     right: 100px;
+}
+
+.buynow {
+    position: absolute;
+    bottom: -8%;
+    left: 0%;
+}
+
+.buy {
+    background-color: #C95B28;
+    padding: 10px 20px;
+}
+
+.buy h3, .readmore h3 {
+    padding-top: 4%;
 }
 
 /* CONTACT */
