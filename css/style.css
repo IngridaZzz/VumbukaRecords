@@ -122,7 +122,7 @@ iframe {
 
 /* RELEASE */
 .release {
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .album-cover {
@@ -212,18 +212,34 @@ img.sandy {
 
 /* NEWS */
 
-/*
-.news-img {
-    background: url(../img/img-1.png);
+.update-box {
+    background-color: #D6845E;
+    height: 300px;
+    position: absolute;
+    margin-top: 66px;
 }
 
-.news-box {
-    background-color: #D6845E;
-    padding: 20px;
+.update-text {
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px 30px;
 }
-*/
+
+.iframe-box {
+    height: 400px;
+    width: 80%;
+    background-color: #6b3758;
+    position: absolute;
+    top: 143px;
+    left: 57px;
+    z-index: -1;
+}
 
 /* LISTEN & WATCH */
+
+.listen {
+    margin-top: 20%;
+}
 
 .lw {
     z-index: 3;
@@ -645,7 +661,8 @@ ul.some-artist {
     padding: 10px 20px;
 }
 
-.buy h3, .readmore h3 {
+.buy h3,
+.readmore h3 {
     padding-top: 4%;
 }
 
@@ -1002,6 +1019,10 @@ footer p {
     .release-box {
         margin-top: 27px;
     }
+
+    .news {
+        display: none;
+    }
 }
 
 
@@ -1031,11 +1052,31 @@ footer p {
         margin-top: 373px;
         left: -62px;
     }
+
+    .get-updated {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .orange-box {
         margin-top: -30px;
+    }
+
+    .update {
+        display: none;
+    }
+
+    .update-box {
+        display: none;
+    }
+
+    .facebook-iframe {
+        margin-left: 25%
+    }
+
+    .iframe-box {
+        top: 243px;
     }
 }
 
@@ -1057,4 +1098,5 @@ footer p {
     .artists-text h2 {
         top: -105px;
     }
+
 }
