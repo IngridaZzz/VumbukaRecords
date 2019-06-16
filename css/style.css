@@ -621,10 +621,14 @@ ul.some-artist {
     padding-bottom: 5%;
 }
 
+.record-box {
+    margin-bottom: 10%;
+}
+
 .zigzag-album {
     background: url(../img/zigzag-release.svg);
     position: absolute;
-    margin-top: 182px;
+    margin-top: 177px;
     height: 200px;
 }
 
@@ -652,13 +656,17 @@ ul.some-artist {
 
 .buynow {
     position: absolute;
-    bottom: -8%;
+    bottom: -6%;
     left: 0%;
 }
 
 .buy {
     background-color: #C95B28;
     padding: 10px 20px;
+}
+
+.buy h3 {
+    font-size: 21px;
 }
 
 .buy h3,
@@ -856,6 +864,10 @@ footer p {
     footer {
         margin-top: 30%;
     }
+
+    .buynow {
+        bottom: 5%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -916,6 +928,10 @@ footer p {
 
     .zigzag-vr {
         margin-top: 561px;
+    }
+
+    .buynow {
+        bottom: 1%;
     }
 }
 
@@ -1023,6 +1039,10 @@ footer p {
     .news {
         display: none;
     }
+
+    .zigzag-album {
+        display: none;
+    }
 }
 
 
@@ -1056,6 +1076,10 @@ footer p {
     .get-updated {
         display: none;
     }
+
+    .buynow {
+        bottom: 5%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -1078,6 +1102,10 @@ footer p {
     .iframe-box {
         top: 243px;
     }
+
+    .zigzag-album {
+        margin-top: 353px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1092,11 +1120,14 @@ footer p {
     .zigzag-vr {
         margin-top: 307px;
     }
+
+    .buynow {
+        bottom: 8%;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
     .artists-text h2 {
         top: -105px;
     }
-
 }
