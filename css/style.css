@@ -640,8 +640,20 @@ ul.some-artist {
     position: absolute;
 }
 
+.review {
+	margin-top: 100px;
+}
+
+.review-box {
+	background-color: #fff;
+	padding: 20px;
+	-webkit-box-shadow: -45px 38px 0px 0px rgba(241,238,240,1);
+-moz-box-shadow: -45px 38px 0px 0px rgba(241,238,240,1);
+box-shadow: -45px 38px 0px 0px rgba(241,238,240,1);
+}
+
 .video-listen {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .vl-box {
