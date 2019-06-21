@@ -119,13 +119,13 @@
     <section class="release">
         <!-- RELEASE SECTION -->
         <div class="container-fluid">
-            <div class="row justify-content-end">
-                <div class="col-3 orange-box"></div>
+            <div class="row justify-content-end top-box">
+                <div data-position="right" data-offset="60" class="notViewed animBlock orange-box" class="col-3"></div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <div class="album-cover">
+                        <div data-position="left" data-offset="60" class="notViewed animBlock album-cover">
                             <img src="img/album-cover.jpg" alt="Qhum Qhaks album cover" />
                         </div>
                     </div>
@@ -152,11 +152,12 @@
 
     <section class="artists">
         <!-- ARTISTS -->
-        <!-- ARTISTS -->
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 zigzag">
-                    <div class="col-12 p-box"></div>
+                    <div data-position="left" data-offset="60" class="notViewed animBlock">
+                        <div class="col-12 p-box"></div>
+                    </div>
 
                     <div class="artists-text">
                         <h2>Our Artists</h2>
@@ -172,7 +173,9 @@
 
                 </div>
                 <div class="col-12 col-md-6">
-                    <img src="img/SandyB.jpg" alt="Sandy B at Distortion" class="sandy">
+                    <div data-position="right" data-offset="60" class="notViewed animBlock">
+                        <img src="img/SandyB.jpg" alt="Sandy B at Distortion" class="sandy">
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,14 +185,16 @@
     <!--NEWS-->
     <section class="news">
         <div class="container-fluid">
-            <div class="row justify-content-end">
-                <div class="col-3 update-box"></div>
+            <div class="row justify-content-end top-box">
+                <div data-position="right" data-offset="60" class="notViewed animBlock">
+                    <div class="col-3 update-box"></div>
+                </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 facebook-iframe">
-                        <div>
-                            <h2 class="get-updated">Get updated!</h2>
+                        <h2 class="get-updated">Get updated!</h2>
+                        <div data-position="left" data-offset="60" class="notViewed animBlock">
                             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FVumbukaRecords%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=false&hide_cover=true&show_facepile=false&appId" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                             <div class="col-12 iframe-box"></div>
                         </div>
@@ -230,7 +235,9 @@
                     <div class="spotify">
                         <iframe src="https://open.spotify.com/embed/album/0PPdH1QzLIOxWROTCqR4QV" height="380" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="lw-box"></div>
+                    <div data-position="right" data-offset="60" class="notViewed animBlock">
+                        <div class="lw-box"></div>
+                    </div>
                     <div class="lw-zigzag"></div>
                 </div>
             </div>
@@ -267,7 +274,7 @@
                     <ul class="footer-menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="artists.html">Artists</a></li>
+                        <li><a href="records.html">Records</a></li>
                     </ul>
 
                 </div>
@@ -276,7 +283,7 @@
                 <!-- Grid column -->
                 <div class="col-md-1 mb-md-0 mb-3 footer-left">
                     <ul class="footer-menu">
-                        <li><a href="records.html">Records</a></li>
+                        <li><a href="artists.html">Artists</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -304,6 +311,7 @@
 
     </footer>
     <!-- Footer -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
