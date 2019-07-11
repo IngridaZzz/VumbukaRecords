@@ -34,6 +34,10 @@ h5 {
     text-transform: uppercase;
 }
 
+h6 {
+    font-weight: 700;
+}
+
 /* MENU - NAVIGATION */
 
 header {
